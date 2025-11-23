@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labib Almubarok | Web Developer & UI/UX Enthusiast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.3.4/tsparticles.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+</head>
+<body class="js-loading">
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">LABIB</span>
+                <span class="logo-subtitle">ALMUBAROK</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#portfolio" class="nav-link">Portofolio</a>
+                <a href="#pendidikan" class="nav-link">Pendidikan</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+            </div>
+            <button class="mobile-nav-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="tsparticles"></div>
+        <div class="hero-background">
+            <div class="animated-grid"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-main">Labib Almubarok</span>
+            </h1>
+            <p class="hero-tagline"><span class="highlight">Semangatlah</span> dalam perjuangan</p>
+            <p class="hero-description">Web Developer dan UI/UX Enthusiast yang passionate dalam menciptakan pengalaman digital yang inovatif dan user-friendly dengan teknologi terkini.</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-number">2025</span>
+                    <span class="stat-label">Memulai</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">Aktif</span>
+                    <span class="stat-label">Sekarang</span>
+                </div>
+            </div>
+            <button class="btn-primary hero-cta">Lihat Portofolio</button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll untuk melihat</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="section-description">
+                    Perjalanan dan dedikasi saya dalam dunia teknologi web
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Web Developer & UI/UX Enthusiast</h3>
+                    <p class="about-description">
+                        Sebagai seorang web developer muda yang passionate, saya telah memulai perjalanan saya di dunia teknologi sejak tahun 2025. Dengan latar belakang pendidikan yang solid dari tingkat Madrasah Ibtidaiyah hingga Politeknik, saya memiliki pemahaman yang mendalam tentang pentingnya fondasi yang kuat dalam setiap proses pembelajaran dan pengembangan.
+                    </p>
+                    <p class="about-description">
+                        Yang membuat saya berbeda adalah kombinasi antara pemahaman teknis yang mendalam dan minat yang besar terhadap user experience. Saya percaya bahwa teknologi terbaik adalah yang dapat diakses dan memberikan nilai nyata bagi pengguna. Setiap proyek yang saya kerjakan, saya selalu menempatkan user experience sebagai prioritas utama.
+                    </p>
+                    <p class="about-description">
+                        Saya mulai belajar pemrograman dengan HTML dan CSS sebagai fondasi, kemudian berkembang ke framework dan library yang lebih canggih seperti Bootstrap, Tailwind, PHP, Laravel, Livewire, hingga React. Setiap teknologi yang saya pelajari selalu diimplementasikan dengan tujuan menciptakan solusi yang efisien dan user-friendly.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Quality First</h4>
+                                <p>Membangun aplikasi dengan standar kualitas tinggi</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/>
+                                    <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>User-Centered Design</h4>
+                                <p>Mendesain dengan fokus pada kebutuhan pengguna</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Continuous Learning</h4>
+                                <p>Selalu belajar teknologi terbaru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="img/profil.jpg" alt="Labib Almubarok">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Labib Almubarok</h3>
+                            <p>Web Developer & UI/UX Enthusiast</p>
+                            <div class="profile-meta">
+                                <span>Berdasarkan di Indonesia</span>
+                                <span>Memulai Developer di 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Keahlian & Teknologi</h2>
+                <p class="section-description">
+                    Teknologi dan tools yang saya kuasai untuk menciptakan solusi digital
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="HTML">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M1.5 2.25h21l-10.5 18.75z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">HTML & CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Bootstrap">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8.25 7.5h-3l-2.25 4.5h3l-1.5 3h-3l-2.25 4.5h9l1.5-3h3l2.25-4.5h-3l1.5-3h3l2.25-4.5h-9l-1.5 3z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Bootstrap</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Tailwind">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Tailwind CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="React">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.25c-1.5 0-3 1.5-3 3.75s1.5 3.75 3 3.75 3-1.5 3-3.75-1.5-3.75-3-3.75zM6.75 13.5c0-1.5 1.5-3 3.75-3s3.75 1.5 3.75 3.75-1.5 3.75-3.75 3.75-3.75-1.5-3.75-3.75z"/>
+                                    <path d="M20.25 12c0 1.5-1.5 3-3.75 3s-3.75-1.5-3.75-3.75 1.5-3.75 3.75-3.75 3.75 1.5 3.75 3.75z"/>
+                                    <path d="M12 16.5c-1.5 0-3 1.5-3 3.75s1.5 3.75 3 3.75 3-1.5 3-3.75-1.5-3.75-3-3.75z"/>
+                                    <path d="M8.25 6.75c0-1.5 1.5-3 3.75-3s3.75 1.5 3.75 3.75-1.5 3.75-3.75 3.75-3.75-1.5-3.75-3.75z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="PHP">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M1.5 6.75C1.5 4.68 3.18 3 5.25 3h13.5c2.07 0 3.75 1.68 3.75 3.75v10.5c0 2.07-1.68 3.75-3.75 3.75H5.25C3.18 21 1.5 19.32 1.5 17.25v-10.5z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">PHP</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Laravel">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.25L2.25 12l9.75 9.75L12 22.5 2.25 12 12 2.25z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Laravel</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Livewire">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25z"/>
+                                    <path d="M12 6.75v6.75M6.75 12h10.5" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Livewire</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Database">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                                    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+                                    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Database Design</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Git">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 18c-4.51 2.5-12 2.5-16 0 5.25-2.5 8.25-7.5 8.25-10.5 0-1.5 1.5-3 3-3s3 1.5 3 3c0 3-3 8-8.25 10.5z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Git & Version Control</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Figma">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25z"/>
+                                    <path d="M12 8.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5z" fill="white"/>
+                                    <path d="M12 15.75a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5z" fill="white"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">UI/UX Design (Figma)</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Responsive">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <rect x="3" y="3" width="18" height="12" rx="2"/>
+                                    <rect x="8" y="17" width="8" height="2" rx="1"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Performance">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.25l3.5 7.25 7.5 1.25-5.25 5.25 1.25 7.5L12 18.75l-7 3.75 1.25-7.5L1 10.5l7.5-1.25L12 2.25z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Performance Optimization</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio Proyek</h2>
+                <p class="section-description">
+                    Showcase dari proyek-proyek web development yang telah saya kerjakan
+                </p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-project="0">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="E-Learning Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-technologies">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Livewire</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">E-Learning Platform</h3>
+                        <p class="portfolio-description">
+                            Platform pembelajaran online dengan fitur live class, kuis interaktif, dan sistem penilaian otomatis menggunakan Laravel dan Livewire untuk performa yang optimal.
+                        </p>
+                        <div class="portfolio-features">
+                            <span class="feature-tag">User Authentication</span>
+                            <span class="feature-tag">Course Management</span>
+                            <span class="feature-tag">Progress Tracking</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <button class="btn-secondary">View Details</button>
+                            <button class="btn-ghost">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="1">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dashboard Analytics">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Tailwind</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Dashboard Analytics</h3>
+                        <p class="portfolio-description">
+                            Dashboard manajemen data dengan visualisasi real-time, chart interaktif, dan UI yang user-friendly. Dibuat dengan React dan Tailwind CSS untuk tampilan yang modern.
+                        </p>
+                        <div class="portfolio-features">
+                            <span class="feature-tag">Real-time Data</span>
+                            <span class="feature-tag">Interactive Charts</span>
+                            <span class="feature-tag">Export Report</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <button class="btn-secondary">View Details</button>
+                            <button class="btn-ghost">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="3">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Personal Portfolio">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-technologies">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Personal Portfolio</h3>
+                        <p class="portfolio-description">
+                            Portofolio personal dengan animasi menarik, responsive design, dan optimasi SEO. Showcase dari kemampuan frontend development dengan vanilla JavaScript.
+                        </p>
+                        <div class="portfolio-features">
+                            <span class="feature-tag">Animation</span>
+                            <span class="feature-tag">Responsive</span>
+                            <span class="feature-tag">SEO Ready</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <button class="btn-secondary">View Details</button>
+                            <button class="btn-ghost">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="4">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="E-Commerce System">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-technologies">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">E-Commerce System</h3>
+                        <p class="portfolio-description">
+                            Sistem toko online lengkap dengan payment gateway, inventory management, dan admin dashboard. Mengintegrasikan Laravel backend dengan React frontend.
+                        </p>
+                        <div class="portfolio-features">
+                            <span class="feature-tag">Payment Gateway</span>
+                            <span class="feature-tag">Admin Panel</span>
+                            <span class="feature-tag">Inventory</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <button class="btn-secondary">View Details</button>
+                            <button class="btn-ghost">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="pendidikan" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pendidikan</h2>
+                <p class="section-description">
+                    Perjalanan pendidikan saya hingga menuju dunia teknologi
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2025">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <h3>Politeknik IDN</h3>
+                            <p class="education-level">Kuliah</p>
+                            <p class="education-status">Sedang Berkuliah</p>
+                            <p class="education-description">
+                                Memperdalam pengetahuan dalam bidang teknologi informasi dan mengembangkan skill sebagai web developer profesional.
+                            </p>
+                            <div class="education-highlights">
+                                <span class="highlight">Web Development</span>
+                                <span class="highlight">Software Engineering</span>
+                                <span class="highlight">Database Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2022-2025">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <h3>Pondok Pesantren Al-Manshurah Unit Aliyah</h3>
+                            <p class="education-level">Pendidikan Menengah Atas</p>
+                            <p class="education-status">Selesai</p>
+                            <p class="education-description">
+                                Memperoleh pendidikan dengan kombinasi kurikulum umum dan religious, mengembangkan kedisiplinan dan pola pikir yang sistematis.
+                            </p>
+                            <div class="education-highlights">
+                                <span class="highlight">Leadership</span>
+                                <span class="highlight">Discipline</span>
+                                <span class="highlight">Academic Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2019-2022">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <h3>Pondok Pesantren Al-Manshurah Unit Tsanawiyah</h3>
+                            <p class="education-level">Pendidikan Menengah Pertama</p>
+                            <p class="education-status">Selesai</p>
+                            <p class="education-description">
+                                Periode yang membentuk fondasi karakter dan disiplin yang kuat, serta kemampuan mengelola waktu dan tugas dengan baik.
+                            </p>
+                            <div class="education-highlights">
+                                <span class="highlight">Character Building</span>
+                                <span class="highlight">Time Management</span>
+                                <span class="highlight">Teamwork</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2013-2019">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <h3>Madrasah Ibtidaiyah Khoiro Ummah</h3>
+                            <p class="education-level">Pendidikan Dasar</p>
+                            <p class="education-status">Selesai</p>
+                            <p class="education-description">
+                                Memulai perjalanan pendidikan formal dengan fondasi yang kuat dalam akademik dan karakter yang berlandaskan nilai-nilai positif.
+                            </p>
+                            <div class="education-highlights">
+                                <span class="highlight">Foundation</span>
+                                <span class="highlight">Moral Values</span>
+                                <span class="highlight">Academic Basics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Mari Berkolaborasi</h2>
+                    <p class="contact-description">
+                        Saya selalu terbuka untuk proyek menarik, peluang kolaborasi, atau diskusi tentang teknologi. Mari kita ciptakan sesuatu yang luar biasa bersama!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:labibalmubarok12@gmail.com" class="__cf_email__">labibalmubarok12@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Lokasi</h4>
+                                <p>Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Ketersediaan</h4>
+                                <p>Siap menerima project baru</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Hubungi Saya</h4>
+                        <div class="social-grid">
+                            <a href="https://github.com/labibkuy" class="social-link" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://wa.me/+6281326142983/" class="social-link" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                                </svg>
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="https://www.instagram.com/labib_almubarok26" class="social-link" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <path d="M17.5 6.5h.01"/>
+                                </svg>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">LABIB</span>
+                        <span class="logo-subtitle">ALMUBAROK</span>
+                    </div>
+                    <p class="footer-tagline"><span class="highlight">Semangatlah</span> dalam perjuangan</p>
+                    <p class="footer-description">
+                        Web Developer & UI/UX Enthusiast yang passionate dalam menciptakan solusi digital yang inovatif dan user-friendly.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigasi</h4>
+                        <a href="#home" class="footer-link">Beranda</a>
+                        <a href="#about" class="footer-link">Tentang</a>
+                        <a href="#skills" class="footer-link">Keahlian</a>
+                        <a href="#portfolio" class="footer-link">Portfolio</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Pendidikan</h4>
+                        <a href="#pendidikan" class="footer-link">Madrasah Ibtidaiyah</a>
+                        <a href="#pendidikan" class="footer-link">Pondok Pesantren</a>
+                        <a href="#pendidikan" class="footer-link">Politeknik</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Kontak</h4>
+                        <a href="mailto:labib@example.com" class="footer-link">Email</a>
+                        <a href="#contact" class="footer-link">Project Inquiry</a>
+                        <a href="#contact" class="footer-link">Kolaborasi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Labib Almubarok</p>
+                <div class="footer-social">
+                    <a href="mailto:labibalmubarok12@gmail.com" class="social-link">Email</a>
+                    <a href="https://github.com/labibkuy" class="social-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
